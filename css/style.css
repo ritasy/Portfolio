@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    background: linear-gradient(to left, #000000, #660101, #8a0404, #000000);
+    background-size: 200% 100%; 
+    animation: gradientAnimation 3s linear infinite alternate;
+
+  }
+  
+
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+
+
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+img {
+    border: solid 5px rgb(0, 0, 0);
+}
+
+
+
+.name {
+    margin-left: 50px;
+    margin-top: 50px;
+    color: white;
+    font-family: 'Yatra One';
+    font-size: 3em;
+}
+
+#skull {
+    height: 600px;
+    width: 400px;
+    position: absolute;
+    right: 40.3%; 
+    top: 44%; 
+    transform: translateY(-60%); 
+}
+
+#music {
+    height: 600px;
+    width: 400px;
+    position: absolute;
+    right: 25%; 
+    top: 70%; 
+    transform: translateY(-60%); 
+}
+
+#cat {
+    height: 300px;
+    width: 190px;
+    position: absolute;
+    left: 5%; 
+    top: 70%; 
+    transform: translateY(-60%); 
+}
+#skeleton {
+    height: 300px;
+    width: 430px;
+    position: absolute;
+    left: 21%; 
+    top: 70%; 
+    transform: translateY(-60%); 
+}
+#witches {
+    height: 300px;
+    width: 190px;
+    position: absolute;
+    left: 13.3%; 
+    top: 70%; 
+    transform: translateY(-60%); 
+}
+
+#ysf {
+    height: 500px;
+    width: 350px;
+    position: absolute;
+    left: 73%; 
+    top: 33%; 
+    transform: translateY(-60%); 
+}
+
+
+#grave {
+    height: 400px;
+    width: 800px;
+    position: absolute;
+    right: -25%; 
+    top: 75%; 
+    transform: translateY(-60%); 
+}
+
+
+#catts {
+    height: 700px;
+    width: 480px;
+    position: absolute;
+    right: -45%; 
+    top: 55%; 
+    transform: translateY(-60%); 
+    
+}
+
